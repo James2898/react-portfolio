@@ -58,7 +58,7 @@ const Landing = ({ setSelectedPage }) => {
               Martinez
             </span> */}
           </p>
-          <p className="mt-5 text-yellow text-center font-semibold">
+          <p className="mt-5 text-yellow text-center md:text-start font-semibold">
             FULL STACK WEB ENGINEER
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">

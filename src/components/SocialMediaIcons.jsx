@@ -35,7 +35,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img src="../assets/instagramq.png" alt="linkedin-link" />
+        <img src="../assets/instagram.png" alt="instagram-link" />
       </a>
     </div>
   );

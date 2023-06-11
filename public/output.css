@@ -581,6 +581,10 @@ video {
   position: fixed;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -625,6 +629,10 @@ video {
   z-index: 40;
 }
 
+.z-\[-1\]{
+  z-index: -1;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -633,6 +641,10 @@ video {
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .mb-7{
@@ -659,6 +671,14 @@ video {
   margin-top: 4rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mt-32{
+  margin-top: 8rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -671,12 +691,28 @@ video {
   display: none;
 }
 
+.h-0{
+  height: 0px;
+}
+
+.h-0\.5{
+  height: 0.125rem;
+}
+
 .h-3{
   height: 0.75rem;
 }
 
+.h-32{
+  height: 8rem;
+}
+
 .h-full{
   height: 100%;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .w-3{
@@ -737,6 +773,10 @@ video {
 
 .gap-16{
   gap: 4rem;
+}
+
+.gap-32{
+  gap: 8rem;
 }
 
 .gap-6{
@@ -832,12 +872,20 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .pr-0{
   padding-right: 0px;
 }
 
 .pr-0\.5{
   padding-right: 0.125rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -862,6 +910,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -883,6 +936,11 @@ video {
 .text-deep-blue{
   --tw-text-opacity: 1;
   color: rgb(1 0 38 / var(--tw-text-opacity));
+}
+
+.text-red{
+  --tw-text-opacity: 1;
+  color: rgb(220 68 146 / var(--tw-text-opacity));
 }
 
 .text-yellow{
@@ -923,6 +981,11 @@ body,
   position: absolute;
 }
 
+.before\:-left-10::before{
+  content: var(--tw-content);
+  left: -2.5rem;
+}
+
 .before\:-left-20::before{
   content: var(--tw-content);
   left: -5rem;
@@ -931,6 +994,11 @@ body,
 .before\:-left-\[25px\]::before{
   content: var(--tw-content);
   left: -25px;
+}
+
+.before\:-top-10::before{
+  content: var(--tw-content);
+  top: -2.5rem;
 }
 
 .before\:-top-20::before{
@@ -1076,6 +1144,10 @@ body,
     order: 2;
   }
 
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:mt-32{
     margin-top: 8rem;
   }
@@ -1086,6 +1158,10 @@ body,
 
   .md\:h-full{
     height: 100%;
+  }
+
+  .md\:w-3\/4{
+    width: 75%;
   }
 
   .md\:max-w-\[600px\]{
@@ -1102,6 +1178,10 @@ body,
 
   .md\:justify-between{
     justify-content: space-between;
+  }
+
+  .md\:gap-16{
+    gap: 4rem;
   }
 
   .md\:text-start{
