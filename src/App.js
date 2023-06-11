@@ -1,4 +1,5 @@
 import Navbar from "./scenes/Navbar";
+import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -11,7 +12,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY === 0) setIsTopOfPage(true);
-      if (window.scrolly !== 0) setIsTopOfPage(false);
+      if (window.scrollY !== 0) setIsTopOfPage(false);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -33,6 +34,7 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
     </div>
   );
