@@ -49,7 +49,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            My <span className="text-red">PRO</span>JECTS
+            <span className="text-red">PRO</span>JECTS
             <div className="flex justify-center mt-5">
               <LineGradient width="w-1/3" />
             </div>
@@ -67,7 +67,7 @@ const Projects = () => {
           className="sm:grid sm:grid-cols-3"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.2 }}
           variants={container}
         >
           <div
