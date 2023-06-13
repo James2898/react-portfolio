@@ -2,15 +2,16 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
-  const testimonialStyles = `mx-auto relative max-w-[400px] h-[350px]
-    flex flex-col justify-end p-16 mt-48
-    before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2`;
+  const testimonialStyles = `mx-auto relative max-w-[400px] h-[250px] xl:h-[350px]
+    flex flex-col justify-end p-16 mt-32 xl:mt-48
+    before:absolute before:top-[-120px] before:-ml-[110px]
+    before:left-1/2 before:scale-75 xl:before:scale-100`;
 
   return (
     <section id="testimonials" className="pt-32 pb-16">
       {/* HEADING */}
       <motion.div
-        className="md:w1/3 text-center md:text-left"
+        className="xl:w-1/3 text-center md:text-left"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -23,8 +24,10 @@ const Testimonials = () => {
         <p className="font-playfair font-semibold text-4xl mb-5 tet-red">
           TESTIMONIALS
         </p>
-        <LineGradient width="mx-auto w-2/5" />
-        <p className="mt-10">
+        <div className="flex justify-center md:justify-start">
+          <LineGradient width="w-2/5" />
+        </div>
+        <p className="mt-5 xl:mt-10">
           Here's what people are saying about my work. Lorem ipsum dolor sit
           amet, consectetur adipiscing elit. Morbi a laoreet eros. Nullam
           tincidunt magna libero.

@@ -2,24 +2,22 @@ const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
-        href="https://www.linkedin.com"
-        className="hover:opacity-50 transition duration-500"
-        g
+        href="https://www.linkedin.com/in/james2898"
+        className="hover:opacity-50 w-12 transition duration-500"
         target="_blank"
         rel="noreferrer"
       >
-        <img src="../assets/linkedin.png" alt="linkedin-link" />
+        <img src="../assets/linkedin.svg" alt="linkedin-link" />
       </a>
       <a
-        href="https://twitter.com"
-        className="hover:opacity-50 transition duration-500"
-        g
+        href="https://github.com/James2898"
+        className="hover:opacity-50 w-12 transition duration-500"
         target="_blank"
         rel="noreferrer"
       >
-        <img src="../assets/twitter.png" alt="twitter-link" />
+        <img src="../assets/github.svg" alt="twitter-link" />
       </a>
-      <a
+      {/* <a
         href="https://www.facebook.com"
         className="hover:opacity-50 transition duration-500"
         g
@@ -36,7 +34,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
       >
         <img src="../assets/instagram.png" alt="instagram-link" />
-      </a>
+      </a> */}
     </div>
   );
 };

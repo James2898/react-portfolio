@@ -50,10 +50,10 @@ const Projects = () => {
         <div>
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-red">PRO</span>JECTS
-            <div className="flex justify-center mt-5">
-              <LineGradient width="w-1/3" />
-            </div>
           </p>
+          <div className="flex justify-center mt-5">
+            <LineGradient width="w-1/3" />
+          </div>
           <p className="mt-10 mb-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
             laoreet eros. Nullam tincidunt magna libero.
