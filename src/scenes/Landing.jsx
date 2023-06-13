@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
             </span> */}
           </p>
           <p className="mt-5 text-yellow text-center md:text-start font-semibold">
-            FULL STACK WEB ENGINEER
+            WEB DEPEVELOPER
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Innovative, task-driven professional with 4+yrs of experience in web
